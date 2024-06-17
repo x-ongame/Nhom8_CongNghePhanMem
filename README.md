@@ -31,11 +31,12 @@
 
    ````markdown
    ## Installation
-
-   ```sh
+   tai va cai dat git tai
+   https://git-scm.com/downloads
+   
    # command
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone [https://github.com/x-ongame/Nhom8_CongNghePhanMem.git](https://github.com/x-ongame/Nhom8_CongNghePhanMem.git)
+   
    ```
    ````
 
