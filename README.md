@@ -27,21 +27,64 @@
    - [Additional Information](#additional-information)
    ```
 
-4. **Cài đặt**: Hướng dẫn cài đặt dự án.
+4. **git**: Hướng dẫn cài đặt dự án.
 
    ````markdown
    ## Installation
-   tai va cai dat git tai
+   
+   # tai va cai dat git tai
    https://git-scm.com/downloads
    
-   # command
-   git clone [https://github.com/x-ongame/Nhom8_CongNghePhanMem.git](https://github.com/x-ongame/Nhom8_CongNghePhanMem.git)
+   # open gitbash
    
-   ```
+   # cau hinh git
+   git config --global user.name "yourName"
+   git config --global user.email yourGmail@gmail.com
+   git config --list
+   
+   # command
+   cd \linkThuMucBanSeLuuFileVaLamViec
+   git clone https://github.com/x-ongame/Nhom8_CongNghePhanMem.git
+   
+   # Lấy các thay đổi mới nhất từ repository gốc (upstream)
+   git fetch upstream
+   git checkout main
+   git merge upstream/main
+
+   # Tạo branch mới
+   git checkout -b feature-branch-name
+
+   # chinh sua cac file
+
+   # kiem tra trang thai
+   git status
+   
+   # Thêm tất cả các thay đổi vào vùng stage hoac chi them nhung file da thay doi
+   git add .  or git add tenFile.xxx
+   git commit -m "Mô tả ngắn gọn về các thay doi"
+   git push origin feature-branch-name
+
+   # chuyen sang nhanh main
+   git checkout main
+
+   # gop voi nhanh main
+   git merge feature-branch-name
+   
+   # lay nhung thu moi nhat tu nhanh main
+   git pull origin main
    ````
 
    ```
+   # giai quyet xung dot neu co
+   1. Mở các file có xung đột và tìm kiếm các dấu hiệu xung đột (<<<<<<, ======, >>>>>>).
+   2. Chỉnh sửa các phần xung đột để chọn hoặc kết hợp các thay đổi.
+   3. Thêm các file đã chỉnh sửa vào vùng stage:
+   git add conflicted-file.txt
+   4. Hoàn tất quá trình gộp sau khi giải quyết xung đột:
+   git commit "commit"
 
+   # Đẩy các thay đổi lên remote repository
+   git push origin main
    ```
 
 5. **Sử dụng**: Hướng dẫn cách sử dụng dự án.
