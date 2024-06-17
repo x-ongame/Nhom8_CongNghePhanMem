@@ -46,11 +46,6 @@
    # command
    cd \linkThuMucBanSeLuuFileVaLamViec
    git clone https://github.com/x-ongame/Nhom8_CongNghePhanMem.git
-   
-   # Lấy các thay đổi mới nhất từ repository gốc (upstream)
-   git fetch upstream
-   git checkout main
-   git merge upstream/main
 
    # Tạo branch mới
    git checkout -b feature-branch-name
@@ -70,7 +65,7 @@
 
    # gop voi nhanh main
    git merge feature-branch-name
-   
+
    # lay nhung thu moi nhat tu nhanh main
    git pull origin main
    ````
@@ -130,8 +125,6 @@
 
    ```markdown
    ## Additional Information
-
-   Any additional information or links you want to include, like acknowledgements, references, etc.
    ```
 
 ### Tổng kết
