@@ -87,6 +87,12 @@
 
    # Đẩy các thay đổi lên remote repository
    git push origin main
+   
+   # Kiểm tra log
+   git log or git log --online
+
+   # xem lại
+   git checkout -----
    ```
 
 5. **Sử dụng**: Hướng dẫn cách sử dụng dự án.
