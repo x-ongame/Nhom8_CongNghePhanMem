@@ -49,6 +49,12 @@
 
    # Tạo branch mới
    git checkout -b feature-branch-name
+   
+   # xóa branch tren local
+   git branch -d name_branch
+
+   # xóa branch tren github
+   git push -d origin name_branch
 
    # chinh sua cac file
 
