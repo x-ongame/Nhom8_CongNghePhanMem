@@ -1,0 +1,163 @@
+@media (max-width : 739px){
+    .container{
+        display: flex;
+    }
+    
+    .title-1 {
+        font-size: 2.2rem;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .title-2 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+
+    button.submit, button.primary {
+        width: 100%;
+    }
+    
+    .container + .container {
+        margin-top: 16px;
+    }
+
+    /* tham khao */
+    .article-list {
+        flex-direction: column;
+    }
+    .article-item {
+        width: 100%;
+        text-align: center;
+    }
+    .topic-item>h3 {
+        text-align: center;
+    }
+
+    .content .title-2 {
+        margin: 24px 0 12px;
+        text-align: left;
+    }
+    .contact-list,.facility-list{
+        width: 100%;
+    }
+    .content{
+        display: block;
+    }
+    
+    .modal-container {
+        width: 100%;
+        padding: 40px 16px 16px;
+        margin: 4px 8px;
+    }
+    .facilities{
+        display: block;
+    }
+    /* post list */
+    .post-list{
+        margin-top: 70px;
+        border-left:none ;
+        border-top: solid 2px #ccc;
+        padding-top: 30px;
+    }
+    .blog-sidebox{
+        margin: 10px 0;
+    }
+
+
+}
+@media screen and (max-width: 980px) {
+    /* footer */
+    img {
+        align-items: center;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .contact__it1 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .contact__it2 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .contact__it3 {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+    .hn {
+        flex: 1;
+        padding: 20px 0;
+    }
+    .map-hn {
+        padding-left: 0px;
+        flex: 1;
+    }
+    .hcm {
+        flex: 1;
+        padding: 20px 0;
+    }
+    .map-hcm {
+        padding-left: 0px;
+        flex: 1;
+    }
+    .contact p a {
+        font-size: 14px;
+    }
+    .contact h6 {
+        font-size: 16px;
+    }
+    .apputc {
+        flex: 1;
+    }
+    .fl-utc {
+        padding-left: 0px;
+        flex: 1;
+    }
+    .map-hcm iframe{
+        height: 120px;
+    }
+    /* header */
+    .header-list {
+        display: none;
+    }
+    .header-img {
+        display: none;
+    }
+    .header-bars {
+        display: block;
+        align-items: center;
+        justify-items: center;
+        padding: 20px 0;
+        color: #fff;
+    }
+    .header-search {
+        border-radius: 10px;
+        flex: 1;
+        padding: 0 0 0 40px;
+    }
+    .header-search input {
+        flex: 1;
+    }
+    .p2 {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 40px;
+    }
+    .form {
+        padding: 20px;
+    }
+    .schoolstat-items {
+        flex-direction: column;
+    }
+    .schoolstat-item {
+        width: 100%;
+    }
+}
