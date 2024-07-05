@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        property = "og:image"
+        content="https://thituyensinh.ican.vn/wp-content/uploads/2021/02/truong-dai-hoc-mo-tphcm-tuyen-dung-giang-vien-trinh-do-tien-si-2019-docx-1572607376073.jpeg"
+    >
+    <title>FIT - UTC - Bộ Môn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--active font -->
+    <link rel="stylesheet" href="./assets/bomon/css/style.css">
+    <link rel="stylesheet" href="./assets/bomon/css/responsive.css">
+    <link rel="shortcut icon" href="./assets/bomon/image/logo_mau.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css">
+</head> 
+<body>
+    <header>
+        <div class="header__logo">
+            <img src="./assets/bomon/image/logo.png" alt="">
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="header__menu">
+            
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__item-link underline">Trang chủ</a></li>
+                <li class="nav__item"><a href="bomon.html" class="nav__item-link">Bộ Môn</a></li>
+                <li class="nav__item"><a href="daotao.html" class="nav__item-link">Tham Khảo</a></li>
+                <li class="nav__item"><a href="tintuc.html" class="nav__item-link">Tin Tức</a></li>
+                
+                <li class="nav__item"><a href="hotro.html" class="nav__item-link">Hỗ Trợ</a></li>
+            </ul>
+        </div>
+        <div class="header__search">
+            <div class="search">
+                <input type="text" class="search__input" placeholder="Tìm kiếm ..." >
+                <div class="search__icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <ul class="suggestions">
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="infor">
+                <nav>
+                    <ul class="nav-tool">
+                        <li class="nav-tool-item current" onclick="changeProgram(1)">Ngôn Ngữ Anh</li>
+                        <li class="nav-tool-item" onclick="changeProgram(2)">Công Nghệ Thông Tin</li>
+                        <li class="nav-tool-item" onclick="changeProgram(3)">Mạng Máy Tính Và Truyền Thông Dữ Liệu</li>
+                    </ul>
+                </nav>
+                <div class="faculty">
+                    <h2 class="title-1">Thông tin Bộ Môn</h2>
+                    <div class="faculty-wrap">
+                        <ul class="faculty-list">
+                            <div class="program-intro">
+                                <h3 class="title-2">Giới thiệu bộ môn Ngôn Ngữ Anh</h3>
+                                <p class="program-desc">
+                                    <span class="space"></span>Chương trình đào tạo ngành Ngôn ngữ Anh được xây dựng và triển khai nhằm mục tiêu đào tạo cử nhân ngành Ngôn ngữ Anh có phẩm chất chính trị vững vàng, có ý thức tổ chức kỷ luật, đạo đức nghề nghiệp; nắm vững kiến thức cơ bản và chuyên sâu về chuyên ngành Ngôn ngữ Anh, đáp ứng các yêu cầu về nghiên cứu, phát triển và ứng dụng ngôn ngữ Anh của xã hội.
+                                </p>
+                                <p class="program-desc">
+                                    <span class="space"></span>– Sinh viên được cung cấp kiến thức cơ bản về lĩnh vực Ngôn ngữ Anh, kiến thức, kỹ năng chuyên sâu ngành Phương pháp giảng dạy tiếng Anh và Tiếng Anh thương mại vận tải quốc tế; từ đó giúp sinh viên có thể áp dụng các kiến thức, kỹ năng đã được tích lũy trong quá trình học tập để tham gia vào các hoạt động nghề nghiệp liên quan đến lĩnh vực giảng dạy Tiếng Anh, thương mại vận tải trong nước cũng như quốc tế, và các lĩnh vực ngành nghề có liên quan đến việc sử dụng Tiếng Anh.
+                                </p>
+                                
+
+
+                            </div>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/hoc_may_va_tri_tue.png" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Mục tiêu của chương trình</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/khai-phá-dữ-liệu-thumbnail.png" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Học tập, thực hành</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/tinh_toan_song_song.png" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Nghiên cứu khoa học</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/vr.webp" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Các hoạt động văn hóa, xã hội</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/do_thi.jpg" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Nhu cầu nhân lực</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/phan_mem.webp" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Cơ hội việc làm</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            
+                            
+                        </ul>
+                        <ul class="faculty-list">
+                            <div class="program-intro">
+                                <h3 class="title-2">Chuyên ngành CÔNG NGHỆ THÔNG TIN</h3>
+                                <p class="program-desc">
+                                   <p>Chương trình đào tạo chuyên ngành Công nghệ thông tin (CNTT) được xây dựng và triển khai nhằm mục tiêu đào tạo cử nhân ngành Công nghệ thông tin có phẩm chất chính trị vững vàng, có ý thức tổ chức kỷ luật, đạo đức nghề nghiệp; có năng lực thực hành nghề nghiệp gồm kiến thức cơ bản và chuyên sâu về chuyên ngành; có phương pháp tư duy, năng lực tự nghiên cứu và phong cách làm việc hiện đại, đáp ứng các yêu cầu về nghiên cứu phát triển và ứng dụng Công nghệ thông tin của xã hội. </p>
+                                    <p>
+                                        <div class="space"></div>Chương trình đào tạo được thiết kế nhằm cung cấp các kiến thức cơ sở ngành, kiến thức chuyên nghiệp và ứng dụng, các kỹ năng nghề nghiệp, và khả năng tự nghiên cứu cho sinh viên nhằm mở rộng kiến thức để thích ứng với xu thế phát triển của thời đại. Chương trình đào tạo được xây dựng dựa trên quan điểm chủ đạo là mang tính ứng dụng cao, đáp ứng được nhu cầu nguồn nhân lực công nghệ thông tin cho xã hội và cho ngành Giao Thông Vận Tải.
+                                    </p>
+                                  
+                                    
+                            </div>
+
+                            
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/phan_tich.jpg" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Các quy trình phát triển phần mềm</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/tester.jpg" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Kiểm thử và đảm bảo chất lượng phần mềm</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/manger.png" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Quản lý dự án phần mềm</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/vision.jpg" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Xử lý ảnh</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/an_toan.jpg" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Điện toán đám mây</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/nhung.jpg" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Phát triển các ứng dụng nhúng</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            
+                        </ul>
+                        <ul class="faculty-list">
+                            <div class="program-intro">
+                                <h3 class="title-2">Chuyên ngành MẠNG MÁY TÍNH VÀ TRUYỀN THÔNG DỮ LIỆU</h3>
+                                <p class="program-desc">
+                                    <div class="space"></div>Chương trình đào tạo ngành Mạng máy tính và truyền thông dữ liệu được xây dựng và triển khai nhằm mục tiêu đào tạo cử nhân ngành Mạng máy tính và truyền thông dữ liệu trình độ cao, phục vụ yêu cầu phát triển kinh tế – xã hội Việt Nam, sự nghiệp công nghiệp hóa – hiện đại hóa đất nước, bảo vệ tổ quốc với bản lĩnh chính trị vững vàng trong bối cảnh cách mạng công nghiệp 4.0, đáp ứng nhu cầu nguồn nhân lực trong lĩnh vực hệ thống kết nối và truyền thông dữ liệu cho xã hội nói chung và cho ngành Giao thông vận tải nói riêng, và hội nhập quốc tế. 
+                                </p>
+                                
+                                <p class="program-desc">
+                                    <div class="space"></div>Đào tạo người học ở trình độ cử nhân, có kiến thức chuyên môn toàn diện cả về lý thuyết lẫn thực tiễn, áp dụng các hiểu biết về nguyên lý, quy luật tự nhiên – xã hội, pháp luật, các kỹ năng thực hành cơ bản để điều quản lý, điều hành chuyên môn, có khả năng làm việc độc lập hoặc trong môi trường hoạt động nhóm một cách tự chủ, sáng tạo, có tinh thần khởi nghiệp nhằm khẳng định bản thân. 
+                                </p>
+                            </div>
+
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/Xây dựng phát triển các hệ thống mạng.jpg" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Xây dựng phát triển các hệ thống mạng</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/pattern recognition.png" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Nhận dạng mẫu (Patttern Recognition)</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/neuron-1586326268991830979556.jpeg" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Mạng neural và logic mờ</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/Hoc-may-02.webp" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name"> Học máy (Machine learning)</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/he-thong-quan-ly-thong-tin-mis.jpg" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name"> Hệ thống thông tin (Information Systems)</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/An-ninh-mang-3.jpg" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">An ninh mạng</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+                            <li class="faculty-item"><a href="#">
+                                <div class="faculty-thumnail">
+                                    <img src="./assets/bomon/image/nghe-quan-tri-mang-1-1.jpg" alt="">
+                                </div>
+                                <div class="faculty-detail">
+                                    <h3 class="title-2 faculty-name">Quản trị mạng</h3>
+                                    <ul class="major-list">
+                                        <li class="major-item"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </a></li>
+
+                            
+                            
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="swipe-left-btn swipe-btn"><i class="fa-solid fa-angles-left"></i></button>
+            <div class="side-infor">
+                <div class="heading-on-mobile">
+                    <h3 class="title-1">KHÁM PHÁ UTH</h3>
+                </div>
+                <div class="register-form side-section">
+                    <h3 class="title-1 register-form__heading">CÂU HỎI TUYỂN SINH</h3>
+                    <div class="register-form__input  form">
+                        <h1 class="title-2">Đăng kí nhận thông tin: </h1>
+                        <div class="register-form__input-item form-field">
+                            <input type="text" id="name" class="form-input" placeholder=" ">
+                            <label class="form-label" for="name">Họ tên</label>
+                        </div>
+                        <div class="register-form__input-item form-field">
+                            <input type="email" id="email" class="form-input" placeholder=" ">
+                            <label class="form-label" for="email">Email</label>
+                        </div>
+                        <div class="register-form__input-item form-field">
+                            <input type="number" id="phone" class="form-input" placeholder=" ">
+                            <label class="form-label" for="phone">Điện thoại</label>
+                        </div>
+
+                        <div class="form-field">
+                            <select id="register-seclect" class="form-input">
+                                <option value="CQ-DT">Đại học Chính quy (Hệ đại trà) </option>
+                                <option value="CQ-CLC">Đại học Chính quy (Chất lượng cao)</option>
+                            </select>
+                            <label for="register-seclect" class="form-label">Hệ đào tạo</label>
+                        </div>
+
+                        <div class="form-field">
+                            <textarea name="question" id="register-question" cols="30" rows="6" placeholder="" class="form-input" ></textarea>
+                            <label for="register-question" class="form-label">Message</label>
+                        </div>
+                        <button class="submit">Gửi</button>
+                    </div>
+                    <div class="form-message-list">
+                        <div class="form-message">
+                            <div class="message-icon">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                            <div class="message-text">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="fan-page side-section">
+                    <h3 class="video__title title-1">FACEBOOK PAGE</h3>
+                    <a href="https://www.facebook.com/TruongDHGiaothongvantaiTPHCM?locale=vi_VN"><img src="./assets/bomon/image/khoa_cntt.png" alt="" class="fanpage-img"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="modal" id="modal">
+            <div class="modal-container">
+                <button class="close-modal"><i class="fa-solid fa-xmark"></i></button>
+                <div class="major-modal">
+                    <h3 class="title">Mục tiêu của chương trình</h3>
+                    <p class="content">
+                        <h3>Thông tin: </h3>
+                        <p>
+                            Trang bị cho người học những kiến thức nền tảng để phát triển toàn diện; có kiến thức chuyên môn toàn diện về ngôn ngữ Anh; nắm vững nguyên lý, quy luật tự nhiên – xã hội; có kĩ năng giao tiếp tiếng Anh thành thạo; có nghiệp vụ thương mại vận tải quốc tế, nghiệp vụ giảng dạy ngôn ngữ Tiếng Anh ; đồng thời có năng lực nghiên cứu và ứng dụng khoa học công nghệ cơ bản vào quá trình học tập và nghiên cứu; có khả năng làm việc độc lập, sáng tạo và giải quyết các công việc chuyên môn thuộc ngành Ngôn ngữ Anh.
+                        </p>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="./assets/trangchu/img/logo.png" alt="logo-uth" />
+        <div class="contact">
+          <div class="contact__it1">
+            <div class="hn">
+              <h6>CƠ SỞ 1</h6>
+              <p>
+                <i class="fa-solid fa-location-dot fa-sm"></i>Địa chỉ: Số 2, đường
+                Võ Oanh, phường 25, quận Bình Thạnh, TP. Hồ Chí Minh
+              </p>
+              <p>
+                <i class="fa-solid fa-phone fa-sm"></i>Điện thoại:
+                <a href="tel:(028) 38 992 862" style="color: #fff"
+                  >(028) 38 992 862</a
+                >
+                - Fax: (028) 38 992 862
+              </p>
+              <p>
+                <i class="fa-solid fa-envelope fa-sm"></i>Email:
+                <a href="mailto:dhgtvt@utc.edu.vn" style="color: #fff"
+                  >ut-hcmc@ut.edu.vn</a
+                >
+              </p>
+              <p>
+                <i class="fa-solid fa-globe fa-sm"></i>Website:
+                <a href="https://ut.edu.vn/" title="CƠ SỞ 1" style="color: #fff"
+                  >https://ut.edu.vn</a
+                >
+              </p>
+            </div>
+            <div class="map-hn">
+              <h6>Trường Đại học Giao thông vận tải - Cơ sở 1</h6>
+              <iframe
+                allowfullscreen=""
+                height="120"
+                loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104429.79520840965!2d106.55964733801797!3d10.854293015648917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293dceb22197%3A0x755bb0f39a48d4a6!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBHaWFvIFRow7RuZyBW4bqtbiBU4bqjaSBUaMOgbmggUGjhu5EgSOG7kyBDaMOtIE1pbmggLSBDxqEgc-G7nyAx!5e0!3m2!1svi!2s!4v1719637001783!5m2!1svi!2s"
+                style="border-radius: 25px; border: 0; width: 100%"
+              ></iframe>
+            </div>
+          </div>
+          <div class="contact__it1">
+            <div class="hn">
+              <h6>CƠ SỞ 2</h6>
+              <p>
+                <i class="fa-solid fa-location-dot fa-sm"></i>Địa chỉ: 17 Đ. 12,
+                P. Bình An, Quận 2, Hồ Chí Minh, Việt Nam
+              </p>
+              <p>
+                <i class="fa-solid fa-phone fa-sm"></i>Điện thoại:
+                <a href="tel:(028) 38 992 862" style="color: #fff"
+                  >(028) 38 992 862</a
+                >
+                - Fax: (028) 38 992 862
+              </p>
+              <p>
+                <i class="fa-solid fa-envelope fa-sm"></i>Email:
+                <a href="mailto:dhgtvt@utc.edu.vn" style="color: #fff"
+                  >ut-hcmc@ut.edu.vn</a
+                >
+              </p>
+              <p>
+                <i class="fa-solid fa-globe fa-sm"></i>Website:
+                <a href="https://ut.edu.vn/" title="CƠ SỞ 2" style="color: #fff"
+                  >https://ut.edu.vn</a
+                >
+              </p>
+            </div>
+            <div class="map-hn">
+              <h6>Trường Đại học Giao thông vận tải - Cơ sở 2</h6>
+              <iframe
+                allowfullscreen=""
+                height="120"
+                loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15676.994144260934!2d106.71435871022015!3d10.792267015237297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527d6a28f0641%3A0x9f730fe7bfad29fd!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBHaWFvIHRow7RuZyB24bqtbiB04bqjaSBUUCBIQ00gVVRIIGPGoSBz4bufIDI!5e0!3m2!1svi!2s!4v1719665296953!5m2!1svi!2s"
+                style="border-radius: 25px; border: 0; width: 100%"
+              ></iframe>
+            </div>
+          </div>
+          <div class="contact__it2">
+            <div class="hcm">
+              <h6>CƠ SỞ 3</h6>
+              <p>
+                <i class="fa-solid fa-location-dot fa-sm"></i>Địa chỉ: 70 Đ. Tô
+                Ký, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh, Việt Nam
+              </p>
+              <p>
+                <i class="fa-solid fa-phone fa-sm"></i>Điện thoại:
+                <a href="tel:02838992862" style="color: #fff">02838992862</a>
+                - Fax: 02838992862
+              </p>
+              <p>
+                <i class="fa-solid fa-envelope fa-sm"></i>Email:
+                <a href="mailto:dhgtvt@utc.edu.vn" style="color: #fff"
+                  >dhgtvt@utc.edu.vn</a
+                >
+              </p>
+              <p>
+                <i class="fa-solid fa-globe fa-sm"></i>Website:
+                <a href="https://ut.edu.vn/" title="CƠ SỞ 3" style="color: #fff"
+                  >https://ut.edu.vn</a
+                >
+              </p>
+            </div>
+            <div class="map-hcm">
+              <h6>Trường Đại học Giao thông vận tải - Cơ sở 3</h6>
+              <iframe
+                allowfullscreen=""
+                height="140"
+                loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104429.79520840965!2d106.55964733801797!3d10.854293015648917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b2a11844fb9%3A0xbed3d5f0a6d6e0fe!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBHaWFvIFRow7RuZyBW4bqtbiBU4bqjaSBUaMOgbmggUGjhu5EgSOG7kyBDaMOtIE1pbmggLSBDxqEgc-G7nyAz!5e0!3m2!1svi!2s!4v1719637768638!5m2!1svi!2s"
+                style="border-radius: 25px; border: 0; width: 100%"
+              ></iframe>
+            </div>
+          </div>
+          <div class="contact__it3">
+            <div class="apputc">
+              <h6>App UTH.edu</h6>
+              <div class="apputc__listapp">
+                <a
+                  class="app-item"
+                  href="https://apps.apple.com/vn/app/uth-edu/id6448858465?l=vi"
+                  title="Apple Store"
+                  style="padding: 20px"
+                >
+                  <span><i class="fab fa-apple app-icon"></i></span>
+                  <span class="app-title" style="font-size: 16px"
+                    >Apple Store</span
+                  >
+                </a>
+                <a
+                  class="app-item"
+                  href="https://play.google.com/store/apps/details?id=com.uth.app&hl=vi-VN"
+                  title="Google Play"
+                  style="padding: 20px"
+                >
+                  <span class="fab fa-google-play app-icon"></span>
+                  <span class="app-title" style="font-size: 16px"
+                    >Google Play</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="fl-utc">
+              <h6>Theo dõi UTC</h6>
+              <div class="icon-contact">
+                <a
+                  href="https://www.facebook.com/TruongDHGiaothongvantaiTPHCM?locale=vi_VN"
+                  class="fb"
+                  style="padding: 20px"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/c/TR%C6%AF%E1%BB%9CNG%C4%90HGIAOTH%C3%94NGV%E1%BA%ACNT%E1%BA%A2ITPHCM"
+                  class="ytb"
+                  style="padding-right: 20px"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+                <a href="mailto:ut-hcmc@ut.edu.vn" class="mail"
+                  ><i class="fa-solid fa-envelope"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p
+          style="
+            text-align: center;
+            background-color: #012750;
+            padding-top: 30px;
+            padding-bottom: 70px;
+          "
+        >
+          <a href="" style="font-size: 14px"
+            >@2024 Bản quyền thuộc Trường Đại học Giao thông vận tải Hồ Chí
+            Minh</a
+          >
+        </p>
+      </footer>
+        
+        <button class="to-top"><a href="#"><i class="fa-solid fa-circle-up"></i></a></button>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/bomon/js/p2.js"></script>
+</body>
+</html>
