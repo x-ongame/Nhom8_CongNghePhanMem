@@ -49,6 +49,12 @@
 
    # Tạo branch mới
    git checkout -b feature-branch-name
+   
+   # xóa branch tren local
+   git branch -d name_branch
+
+   # xóa branch tren github
+   git push -d origin name_branch
 
    # chinh sua cac file
 
@@ -81,6 +87,12 @@
 
    # Đẩy các thay đổi lên remote repository
    git push origin main
+   
+   # Kiểm tra log
+   git log or git log --online
+
+   # xem lại
+   git checkout -----
    ```
 
 5. **Sử dụng**: Hướng dẫn cách sử dụng dự án.
