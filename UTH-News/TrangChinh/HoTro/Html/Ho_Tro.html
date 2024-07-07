@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTH - Hỗ Trợ </title>
+    <link rel="icon" href="../Img/logo_mau.ico">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="../Css/style.css">
+    <link rel="stylesheet" type="text/css" href="../Css/responsive.css">
+    
+</head>
+<div> 
+    <header>
+        <div class="header-img">
+            <img src="../Img/logo.png" alt="logo-utc">
+        </div>
+        <div class="header-bars">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+            <!-- <i class="fa-solid fa-xmark fa-2xl"></i> -->
+        </div>
+        <div class="header-list">
+            <a href="../../TrangChu/Html/index.html" class="header-bars__trangchu">Trang chủ</a>
+            <a href="../../BoMon/Html/Bo_Mon.html" class="header-bars__tuyensinh">Bộ Môn</a>
+            <a href="../../ThamKhao/Html/Tham_Khao.html" class="header-bars__thamkhao">Tham Khảo</a>
+            <a href="../../TinTuc/Html/Tin_Tuc.html" class="header-bars__nghanhhoc">Tin Tức</a>
+
+            <a href="../../HoTro/Html/Ho_Tro.html" class="header-bars__nghanhhoc open-it">Hỗ Trợ</a>
+        </div>
+
+        <div class="list-notification">
+            <div class="notification success-notification" id="success">
+                <div class="icon_notification">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="mess-text">
+                    <h3>Thành công</h3> 
+                    <p>Bạn đã đăng kí nhận tư vấn thành công</p>
+                </div>
+            </div>
+            <div class="notification error-notification" id="error">
+                <div class="icon_notification">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                </div>
+                <div class="mess-text">
+                    <h3>Lỗi</h3> 
+                    <p>Vui lòng nhập lại dữ liệu</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="header-list-down">
+            <a href="index.html" class="header-bars__trangchu">Trang chủ</a>
+            <a href="bomon.html" class="header-bars__tuyensinh">Bộ Môn</a>
+            <a href="daotao.html" class="header-bars__thamkhao">Tham Khảo</a>
+            <a href="#" class="header-bars__nghanhhoc open-it">Hỗ Trợ</a>
+        </div>
+        <div class="header-search">
+            <input type="text" class="header-search__input" placeholder="Tìm kiếm ...">
+            <div class="header-search__icon">
+                <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="p1">
+        <div class="p1__img">
+            <img src="../Img/bg-uth.png" alt="">
+        </div>
+        <div class="p1__welcome">
+            <h1>WELCOME TO UNIVERSITY OF TRANSPORT AND COMMUNICATIONS</h1>
+        </div>
+    </div>
+
+    <div class="p2">
+        <div class="p2__inspired-text">
+            <p>&nbsp; &nbsp; &nbsp;   Trường Đại học Giao thông vận tải hướng tới đào tạo người học trở thành công dân toàn cầu, có tinh thần dân tộc và trách nhiệm quốc tế. </p>
+            <p>&nbsp; &nbsp; &nbsp;     Nhà trường áp dụng phương pháp giáo dục tích cực, học đi đôi với hành, kiến tạo môi trường giúp người học xây dựng và rèn luyện ý thức tự học suốt đời, khả năng thích ứng với mọi hoàn cảnh nhằm phát huy tốt nhất tiềm năng và khả năng sáng tạo. </p>
+            <p>&nbsp; &nbsp; &nbsp;     Nhà trường xác định người học là trung tâm, người thầy truyền cảm hứng.</p>
+        </div>
+        <div class="p2__form">
+            <div class="form">
+                <h1>CÂU HỎI HỖ TRỢ</h1>
+                <form>
+                    <h4 style="color: black;">ĐĂNG KÍ THÔNG TIN HỖ TRỢ</h4>
+                    <div class="form__name">
+                        <input type="text" value="" id="name" class="form-input">
+                        <label for="name" id="lb-name" class="form-label">Họ và tên</label>
+                    </div>
+                    <div class="form__mail">
+                        <input type="text" value="" id="mail" class="form-input">
+                        <label for="mail" id="lb-mail" class="form-label">Email</label>
+                    </div>
+                    <div class="form__phone">
+                        <input type="text" value="" id="phone" class="form-input">
+                        <label for="phone" id="lb-phone" class="form-label">Điện thoại</label>
+                    </div>
+                    <div class="form__training">
+                        <select name="training" id="training" class="form-input-hdt">
+                            <option value="cq">Đại học Chính quy (Hệ đại trà)</option>
+                            <option value="clc">Đại học Chính quy (Hệ đại chất lượng cao)</option>
+                        </select>
+                        <label for="training" class="form-label-hdt">Hệ đào tạo</label>
+                    </div>
+                    <div class="form__message">
+                        <textarea  style="position: relative;" class="form-input" name="form__messageInput" id="form__messageInput" cols="10" rows="6"></textarea>
+                        <label for="form__messageInput" id="lb-form__messageInput" class="form-label">Message</label>
+                    </div>
+                    <button type="submit">Gửi</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="p4">
+        <div class="p4-it">
+            <div class="p4-it__nd">
+                <h1>NGHÀNH ĐÀO TẠO</h1>
+            </div>
+            <div class="p4-it__solieu">
+                <div class="p4-it__solieu-1">
+                    <p>Công nghệ thông tin - chương trình tiên tiến: 748020101A</p>
+                    <p>Công nghệ thông tin - học hoàn toàn
+                        bằng tiếng Anh: 748020101E</p>
+                </div>
+                <div class="p4-it__solieu-2">
+                    <p>Đào tạo theo mô hình tích hợp</p>
+                    <p><span>Cử nhân 4 năm - Kỹ Sư 5 năm</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="p4-it p4-it__2">
+            <div class="p4-it__nd">
+                <h1>CHỈ TIÊU TUYỂN SINH</h1>
+            </div>
+            <div class="p4-it__solieu">
+                <div class="p4-it__solieu-1">
+                    <p style="font-weight: 600;">Cơ sở 1</p>
+                    <p> Công nghệ thông tin: <span>... chỉ tiêu</span></p>
+                    <p> Công nghệ thông tin (CLC): <span>... chỉ tiêu</span></p>
+                </div>
+                <div class="p4-it__solieu-2">
+                    <p style="font-weight: 600;">Cơ sở 2</p>
+                    <p>Công nghệ thông tin: <span>... chỉ tiêu</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pt-tuyensinh">
+        <div class="pt-tuyensinh__nd">
+            <h3 class="pt-tuyensinh__nd__title" style="color: #1D376C; text-align: center;">CÁC PHƯƠNG THỨC XÉT TUYỂN</h3>
+            <div class="pt-tuyensinh__nd__list" style="color: black;">
+            Có 5 phương thức xét tuyển:
+            </div>
+        </div>
+        <div class="pt-tuyensinh__list">
+            <div class="pt-tuyensinh__list-item">
+                <div class="method-item__title">
+                    <a href="#">XÉT KẾT QUẢ THPT (HỌC BẠ)</a>                       
+                </div>
+                <p class="method-item__summary">Bạn có thể nộp học bạ ngay sau khi có kết quả học kỳ 1 của lớp 12 và chỉ mất 5 phút
+    đăng ký tuyển sinh thông qua hình thức online. Bạn đã tốt nghiệp THPT các năm trước vẫn có
+    thể xét học bạ nhé.</p>
+                <div class="medthod-link-p">
+                    <a class="medthod-link " href="javascript:void(0);" onclick="cuonDenViTriForm()">NỘP HỌC BẠ ONLINE</a>
+                </div>
+            </div>
+            <div class="pt-tuyensinh__list-item">
+                <div class="method-item__title">
+                    <a href="#">XÉT TUYỂN THẲNG</a>                       
+                </div>
+                <p class="method-item__summary">Bạn là một cá nhân xuất sắc? Bạn đoạt nhiều giải thưởng cấp thành phố? Bạn có chứng
+    chỉ tiếng Anh, Tin học, Văn bằng quốc tế? Không thể tuyệt vời hơn với cơ hội vào thẳng cùng
+    những suất học bổng giá trị.</p>
+                    <div class="medthod-link-p">
+                        <a class="medthod-link" href="javascript:void(0);" onclick="cuonDenViTriForm()">ĐĂNG KÝ TƯ VẤN</a>
+                    </div>
+            </div>
+            <div class="pt-tuyensinh__list-item">
+                <div class="method-item__title">
+                    <a href="#">XÉT KẾT QUẢ KỲ THI ĐÁNH GIÁ TƯ DUY CỦA ĐẠI HỌC BÁCH KHOA HỒ CHÍ MINH</a>                               </a>
+                </div>
+                <p class="method-item__summary">Hãy chọn nộp học bạ để chắc chắn có cơ hội vào UTH bạn nhé! Nếu bạn nào muốn thử sức ở
+    kỳ thi đánh giá tư duy do Đại Học Bách Khoa HỒ CHÍ MINH tổ chức thì đây cũng là tấm vé “VIP” để có cơ
+    hội vào UTH nữa đó.</p>
+                <div class="medthod-link-p">
+                    <a class="medthod-link" href="javascript:void(0);" onclick="cuonDenViTriForm()">ĐĂNG KÝ TƯ VẤN</a>
+                </div>
+            </div>
+            <div class="pt-tuyensinh__list-item">
+                <div class="method-item__title">
+                    <a href="#">XÉT KẾT QUẢ KỲ THI TỐT NGHIỆP</a>
+                </div>
+                <p class="method-item__summary">Bạn cần điền chính xác thông tin Ngành và Trường Đại học Giao Thông Vận Tải
+    (Mã trường: GTS) vào phiếu điền nguyện vọng hoặc trên cổng xét tuyển của Bộ GD&amp;ĐT. Hãy nhấp vào nút
+    bên dưới để hiểu rõ các thông tin cần thiết nhé!</p>
+                <div class="medthod-link-p">
+                    <a class="medthod-link" href="javascript:void(0);" onclick="cuonDenViTriForm()">HƯỚNG DẪN CHI TIẾT</a>
+                </div>
+            </div>
+            <div class="pt-tuyensinh__list-item">
+                <div class="method-item__title">
+                    <a href="">XÉT TUYỂN THẲNG THEO QUY ĐỊNH CỦA BỘ GD&amp;ĐT</a>
+                </div>
+                <p class="method-item__summary">Trường Đại học Giao Thông Vận Tải tuyển thẳng tất cả các thí sinh đủ điều kiện tuyển thẳng theo quy định của Bộ GD&amp;ĐT nữa đó các bạn nhé! Không chỉ thế, các bạn còn có cơ hội nhận học bổng khi dự tuyển chương trình học bổng của UTH.</p>
+                <div class="medthod-link-p">
+                    <a class="medthod-link" href="javascript:void(0);" onclick="cuonDenViTriForm()">ĐĂNG KÝ TƯ VẤN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="p3">
+        <div class="p3-it">
+            <div class="p3__tittle">
+                <h1>ĐỘI NGŨ GIẢNG VIÊN</h1>
+                <p>Hiện nay Nhà trường có tổng cộng 591 cán bộ, giảng viên, công nhân viên trong đó: 01 Giáo sư, 16 Phó Giáo sư, 54 TSKH và Tiến sĩ, 311 Thạc sĩ (trong đó có 50 đang học NCS),183 Đại học (trong đó có 02 đang học NCS, 56 đang học ThS).</p>
+            </div>
+            <div class="p3__img">
+                <img src="../Img/olumpic.jpeg" alt="olympic tin hoc cap truong">
+            </div>
+        </div>
+        <div class="p3-it p3-it__mid">
+            <div class="p3__tittle">
+                <h1>CƠ SỞ VẬT CHẤT</h1>
+                <p>...</p>
+            </div>
+            <div class="p3__img">
+                <img src="../Img/phongmay.jpg" alt="phong may">
+            </div>
+        </div>
+        <div class="p3-it">
+            <div class="p3__tittle">
+                <h1>CƠ HỘI NGHỀ NGHIỆP</h1>
+                <p>- Tuỳ thuộc lựa chọn thời gian đào tạo sau khi tốt nghiệp, sinh viên sẽ nhận bằng Cử nhân hoặc Kỹ sư "công nghệ thông tin/Khoa học máy tính", có đủ kiến thức, kỹ năng đáp ứng nguồn nhân lực cho cuộc cách mạng công nghiệp 4.0, các vị trí có thể đảm nghiệp.</p>
+                <p>- Một số đối tác: ...</p>
+            </div>
+            <div class="p3__img">
+                <img src="../Img/hoptac_fpt.jpg" alt="olympic tin hoc cap truong">
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        
+      <img src="../Img/logo.png" alt="logo-uth" />
+      
+    
+    <div class="contact">
+      <div class="contact__it1">
+        
+        <div class="hn">
+          <h6>Liên Hệ</h6>
+          
+          <p>
+            <i class="fa-solid fa-phone fa-sm"></i>Phòng đào tạo:
+            <a href="tel:(028) 38 992 862" style="color: #fff"
+              >028 3899 2862</a
+            >
+            <br>
+            <i class="fa-solid fa-phone fa-sm"></i>Tuyển Sinh:
+            <a href="tel:028 3512 8986" style="color: #fff"
+              >028 3512 8986</a
+            >
+            <br>
+            <i class="fa-solid fa-phone fa-sm"></i>Văn thư:
+            <a href="tel:028 3899 1373" style="color: #fff"
+              >028 3899 1373</a
+            >
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope fa-sm"></i>Email:
+            <a href="mailto:ut-hcmc@ut.edu.vn" style="color: #fff"
+              >ut-hcmc@ut.edu.vn</a
+            >
+          </p>
+          <p>
+            <i class="fa-solid fa-globe fa-sm"></i>Website:
+            <a href="https://ut.edu.vn/" title="CƠ SỞ 1" style="color: #fff"
+              >https://ut.edu.vn</a
+            >
+          </p>
+          
+        </div>
+
+        <div class="contact__it3">
+          <div class="apputc">
+            <h6>App</h6>
+            <div class="apputc__listapp">
+              <a
+                class="app-item"
+                href="https://apps.apple.com/vn/app/uth-edu/id6448858465?l=vi"
+                title="Apple Store"
+                style="padding: 0px"
+              >
+                <span><i class="fab fa-apple app-icon"></i></span>
+                <!-- <span class="app-title" style="font-size: 14px"
+                  ></span
+                > -->
+              </a>
+              <a
+                class="app-item"
+                href="https://play.google.com/store/apps/details?id=com.uth.app&hl=vi-VN"
+                title="Google Play"
+                style="padding: 20px"
+              >
+                <span class="fab fa-google-play app-icon"> </span>
+                <!-- <span class="app-title" style="font-size: 14px"
+                  >Google Play</span
+                > -->
+              </a>
+            </div>
+            <br>
+            <h6>Theo dõi</h6>
+            <div class="apputc__listapp">
+              
+                <a
+                  href="https://www.facebook.com/TruongDHGiaothongvantaiTPHCM?locale=vi_VN"
+                
+                  style="padding: 0px"
+                  ><span><i class="fa-brands fa-facebook"></span></i
+                ></a>
+              
+              
+                <a
+                  href="https://www.youtube.com/c/TR%C6%AF%E1%BB%9CNG%C4%90HGIAOTH%C3%94NGV%E1%BA%ACNT%E1%BA%A2ITPHCM"
+                  
+                  style="padding: 20px"
+                  ><span><i class="fa-brands fa-youtube"></span></i
+                ></a>
+              
+             
+            </div>
+          </div>
+          </div>
+          <div class="fl-utc">
+            
+        </div>
+        
+      </div>
+      <div class="contact__it1">
+        <div class="map-hn">
+          <h6>Trường Đại học Giao thông vận tải - Cơ sở 1</h6>
+          <p>
+            <i class="fa-solid fa-location-dot fa-sm"></i>Địa chỉ: Số 2, đường
+            Võ Oanh, phường 25, quận Bình Thạnh, TP. Hồ Chí Minh, Việt Nam
+          </p>
+          <iframe
+            allowfullscreen=""
+            height="120"
+            loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104429.79520840965!2d106.55964733801797!3d10.854293015648917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293dceb22197%3A0x755bb0f39a48d4a6!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBHaWFvIFRow7RuZyBW4bqtbiBU4bqjaSBUaMOgbmggUGjhu5EgSOG7kyBDaMOtIE1pbmggLSBDxqEgc-G7nyAx!5e0!3m2!1svi!2s!4v1719637001783!5m2!1svi!2s"
+            style="border-radius: 25px; border: 0; width: 100%"
+          ></iframe>
+        </div>
+        <div class="map-hn">
+          <h6>Trường Đại học Giao thông vận tải - Cơ sở 2</h6>
+          <p>
+            <i class="fa-solid fa-location-dot fa-sm"></i>Địa chỉ: 17 Đ. 12,
+            P. Bình An, Quận 2, Hồ Chí Minh, Việt Nam
+          </p>
+          <iframe
+            allowfullscreen=""
+            height="120"
+            loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15676.994144260934!2d106.71435871022015!3d10.792267015237297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527d6a28f0641%3A0x9f730fe7bfad29fd!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBHaWFvIHRow7RuZyB24bqtbiB04bqjaSBUUCBIQ00gVVRIIGPGoSBz4bufIDI!5e0!3m2!1svi!2s!4v1719665296953!5m2!1svi!2s"
+            style="border-radius: 25px; border: 0; width: 100%"
+          ></iframe>
+        </div>
+        <!-- <div class="contact__it2"> -->
+        
+          <div class="map-hcm">
+            <h6>Trường Đại học Giao thông vận tải - Cơ sở 3</h6>
+            <p>
+              <i class="fa-solid fa-location-dot fa-sm"></i>Địa chỉ: 70 Đ. Tô Ký, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh, Việt Nam
+            </p>
+            <iframe
+              allowfullscreen=""
+              height="120"
+              loading="lazy"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104429.79520840965!2d106.55964733801797!3d10.854293015648917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b2a11844fb9%3A0xbed3d5f0a6d6e0fe!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBHaWFvIFRow7RuZyBW4bqtbiBU4bqjaSBUaMOgbmggUGjhu5EgSOG7kyBDaMOtIE1pbmggLSBDxqEgc-G7nyAz!5e0!3m2!1svi!2s!4v1719637768638!5m2!1svi!2s"
+              style="border-radius: 25px; border: 0; width: 100%"
+            ></iframe>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      
+    </div>
+    <p
+      style="
+        text-align: center;
+        background-color: #012750;
+        padding-top: 30px;
+        padding-bottom: 70px;
+      "
+    >
+      <a href="" style="font-size: 14px"
+        >@2024 Bản quyền thuộc Trường Đại học Giao thông vận tải Hồ Chí
+        Minh</a
+      >
+    </p>
+  </footer>
+    
+    <div class="btn-top">
+        <i class="fa-solid fa-circle-up fa-bounce fa-xl" style="color: #181818;"></i>    
+    </div>
+    <script src="../Js/script.js" type="text/javascript"></script>
+</body>
+</html>

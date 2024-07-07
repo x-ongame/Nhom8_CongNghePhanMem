@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../Css/base.css" />
+    <link rel="stylesheet" href="../Css/main.css" />
+    <link rel="stylesheet" href="../Css/responsive.css" />
+    <link rel="shortcut icon" href="../Img/logo_mau.ico" />
+    <title>UTH - Tin tức</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-img">
+        <img src="../Img/logo.png" alt="logo-utc" />
+      </div>
+      <div class="header-bars">
+        <i class="fa-solid fa-bars fa-2xl"></i>
+        <!-- <i class="fa-solid fa-xmark fa-2xl"></i> -->
+      </div>
+      <div class="header-list">
+        <a href="../../TrangChu/Html/index.html" class="header-bars__trangchu"
+          >Trang chủ</a
+        >
+        <a href="../../BoMon/Html/Bo_Mon.html" class="header-bars__tuyensinh"
+          >Bộ Môn</a
+        >
+        <a
+          href="../../ThamKhao/Html/Tham_Khao.html"
+          class="header-bars__thamkhao"
+          >Tham Khảo</a
+        >
+        <a
+          href="../../TinTuc/Html/Tin_Tuc.html"
+          class="header-bars__nghanhhoc open-it"
+          >Tin Tức</a
+        >
+
+        <a href="../../HoTro/Html/Ho_Tro.html">Hỗ Trợ</a>
+      </div>
+
+      <div class="list-notification">
+        <div class="notification success-notification" id="success">
+          <div class="icon_notification">
+            <i class="fa-solid fa-circle-check"></i>
+          </div>
+          <div class="mess-text">
+            <h3>Thành công</h3>
+            <p>Bạn đã đăng kí nhận tư vấn thành công</p>
+          </div>
+        </div>
+        <div class="notification error-notification" id="error">
+          <div class="icon_notification">
+            <i class="fa-solid fa-circle-exclamation"></i>
+          </div>
+          <div class="mess-text">
+            <h3>Lỗi</h3>
+            <p>Vui lòng nhập lại dữ liệu</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-list-down">
+        <a href="index.html" class="header-bars__trangchu">Trang chủ</a>
+        <a href="bomon.html" class="header-bars__tuyensinh">Bộ Môn</a>
+        <a href="./tintuc.html" class="header-bars__nghanhhoc">Tin Tức</a>
+        <a href="thamkhao.html" class="header-bars__thamkhao open-it"
+          >Tham Khảo</a
+        >
+        <a href="hotro.html" class="header-bars__nghanhhoc">Hỗ Trợ</a>
+      </div>
+      <div class="header-search">
+        <input type="text" placeholder="Tìm kiếm ..." />
+        <div class="header-search__icon">
+          <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="topic">
+          <h3 class="title-1">TIN TỨC</h3>
+
+          <div class="topic-list">
+            <div class="topic-item">
+              <h3 class="title-2"><span>Học tập</span></h3>
+              <div class="article-list">
+                <div class="article-item">
+                  <a href="#">
+                    <div class="article-thumnail">
+                      <img src="../Img/tintuc1.png" alt="" />
+                    </div>
+                    <h3 class="article-title">
+                      Đăng ký học phần - Học kỳ hè 2024
+                    </h3>
+                    <p class="article-time">
+                      <i class="fa-regular fa-clock"></i> 8h00 12/6/2024
+                    </p>
+                    <p class="more">Xem thêm</p>
+                  </a>
+                </div>
+                <!-- <div class="article-item">
+                  <a>
+                    <div class="article-thumnail">
+                      <img src="./Img/2022.jpg" alt="" />
+                    </div>
+                    <h3 class="article-title">Điểm chuẩn 2022</h3>
+                    <p class="article-time">
+                      <i class="fa-regular fa-clock"></i> 17h00 17/9/2022
+                    </p>
+                    <p class="more">Xem thêm</p>
+                  </a>
+                </div> -->
+                <!-- <div class="article-item">
+                  <a>
+                    <div class="article-thumnail">
+                      <img src="./Img/2021.jpg" alt="" />
+                    </div>
+                    <h3 class="article-title">Điểm chuẩn 2021</h3>
+                    <p class="article-time">
+                      <i class="fa-regular fa-clock"></i> 17h00 16/9/2022
+                    </p>
+                    <p class="more">Xem thêm</p>
+                  </a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="topic-item">
+              <h3 class="title-2"><span>Sự kiện</span></h3>
+              <div class="article-list">
+                <div class="article-item">
+                  <a href="#">
+                    <div class="article-thumnail">
+                      <img src="../Img/tintuc2.png" alt="" />
+                    </div>
+                    <h3 class="article-title">Ngày hội AI Day</h3>
+                    <p class="article-time">
+                      <i class="fa-regular fa-clock"></i> 9/6/2024
+                    </p>
+                    <p class="more">Xem thêm</p>
+                  </a>
+                </div>
+
+                <!-- <div class="article-item">
+                  <a href="web.html">
+                    <div class="article-thumnail">
+                      <img src="./Img/web2.jpg" alt="" />
+                    </div>
+                    <h3 class="article-title">
+                      Các website luyện tập kiến thức
+                    </h3>
+                    <p class="article-time">
+                      <i class="fa-regular fa-clock"></i> 4/8/2020
+                    </p>
+                    <p class="more">Xem thêm</p>
+                  </a>
+                </div> -->
+
+                <!-- <div class="article-item">
+                  <a href="test.html">
+                    <div class="article-thumnail">
+                      <img src="./Img/contest.jpg" alt="" />
+                    </div>
+                    <h3 class="article-title">
+                      Các cuộc thi về công nghệ thông tin
+                    </h3>
+                    <p class="article-time">
+                      <i class="fa-regular fa-clock"></i> 4/8/2020
+                    </p>
+                    <p class="more">Xem thêm</p>
+                  </a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="topic-item">
+              <h3 class="title-2"><span>Tuyển dụng</span></h3>
+              <div class="article-list">
+                <div class="article-item">
+                  <a>
+                    <div class="article-thumnail">
+                      <img src="../Img/job.jpg" alt="" />
+                    </div>
+                    <h3 class="article-title">Tỷ lệ có việc làm</h3>
+                    <p class="article-time">
+                      <i class="fa-regular fa-clock"></i> 14/5/2022
+                    </p>
+                    <p class="more">Xem thêm</p>
+                  </a>
+                </div>
+
+                <div class="article-item">
+                  <a>
+                    <div class="article-thumnail">
+                      <img src="../Img/cooperate.jpg" alt="" />
+                    </div>
+                    <h3 class="article-title">Các tập đoàn hợp tác</h3>
+                    <p class="article-time">
+                      <i class="fa-regular fa-clock"></i> 14/5/2017
+                    </p>
+                    <p class="more">Xem thêm</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        
+      <img src="../Img/logo.png" alt="logo-uth" />
+      
+    
+    <div class="contact">
+      <div class="contact__it1">
+        
+        <div class="hn">
+          <h6>Liên Hệ</h6>
+          
+          <p>
+            <i class="fa-solid fa-phone fa-sm"></i>Phòng đào tạo:
+            <a href="tel:(028) 38 992 862" style="color: #fff"
+              >028 3899 2862</a
+            >
+            <br>
+            <i class="fa-solid fa-phone fa-sm"></i>Tuyển Sinh:
+            <a href="tel:028 3512 8986" style="color: #fff"
+              >028 3512 8986</a
+            >
+            <br>
+            <i class="fa-solid fa-phone fa-sm"></i>Văn thư:
+            <a href="tel:028 3899 1373" style="color: #fff"
+              >028 3899 1373</a
+            >
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope fa-sm"></i>Email:
+            <a href="mailto:ut-hcmc@ut.edu.vn" style="color: #fff"
+              >ut-hcmc@ut.edu.vn</a
+            >
+          </p>
+          <p>
+            <i class="fa-solid fa-globe fa-sm"></i>Website:
+            <a href="https://ut.edu.vn/" title="CƠ SỞ 1" style="color: #fff"
+              >https://ut.edu.vn</a
+            >
+          </p>
+          
+        </div>
+
+        <div class="contact__it3">
+          <div class="apputc">
+            <h6>App</h6>
+            <div class="apputc__listapp">
+              <a
+                class="app-item"
+                href="https://apps.apple.com/vn/app/uth-edu/id6448858465?l=vi"
+                title="Apple Store"
+                style="padding: 0px"
+              >
+                <span><i class="fab fa-apple app-icon"></i></span>
+                <!-- <span class="app-title" style="font-size: 14px"
+                  ></span
+                > -->
+              </a>
+              <a
+                class="app-item"
+                href="https://play.google.com/store/apps/details?id=com.uth.app&hl=vi-VN"
+                title="Google Play"
+                style="padding: 20px"
+              >
+                <span class="fab fa-google-play app-icon"> </span>
+                <!-- <span class="app-title" style="font-size: 14px"
+                  >Google Play</span
+                > -->
+              </a>
+            </div>
+            <br>
+            <h6>Theo dõi</h6>
+            <div class="apputc__listapp">
+              
+                <a
+                  href="https://www.facebook.com/TruongDHGiaothongvantaiTPHCM?locale=vi_VN"
+                
+                  style="padding: 0px"
+                  ><span><i class="fa-brands fa-facebook"></span></i
+                ></a>
+              
+              
+                <a
+                  href="https://www.youtube.com/c/TR%C6%AF%E1%BB%9CNG%C4%90HGIAOTH%C3%94NGV%E1%BA%ACNT%E1%BA%A2ITPHCM"
+                  
+                  style="padding: 20px"
+                  ><span><i class="fa-brands fa-youtube"></span></i
+                ></a>
+              
+             
+            </div>
+          </div>
+          </div>
+          <div class="fl-utc">
+            
+        </div>
+        
+      </div>
+      <div class="contact__it1">
+        <div class="map-hn">
+          <h6>Trường Đại học Giao thông vận tải - Cơ sở 1</h6>
+          <p>
+            <i class="fa-solid fa-location-dot fa-sm"></i>Địa chỉ: Số 2, đường
+            Võ Oanh, phường 25, quận Bình Thạnh, TP. Hồ Chí Minh, Việt Nam
+          </p>
+          <iframe
+            allowfullscreen=""
+            height="120"
+            loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104429.79520840965!2d106.55964733801797!3d10.854293015648917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293dceb22197%3A0x755bb0f39a48d4a6!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBHaWFvIFRow7RuZyBW4bqtbiBU4bqjaSBUaMOgbmggUGjhu5EgSOG7kyBDaMOtIE1pbmggLSBDxqEgc-G7nyAx!5e0!3m2!1svi!2s!4v1719637001783!5m2!1svi!2s"
+            style="border-radius: 25px; border: 0; width: 100%"
+          ></iframe>
+        </div>
+        <div class="map-hn">
+          <h6>Trường Đại học Giao thông vận tải - Cơ sở 2</h6>
+          <p>
+            <i class="fa-solid fa-location-dot fa-sm"></i>Địa chỉ: 17 Đ. 12,
+            P. Bình An, Quận 2, Hồ Chí Minh, Việt Nam
+          </p>
+          <iframe
+            allowfullscreen=""
+            height="120"
+            loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15676.994144260934!2d106.71435871022015!3d10.792267015237297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527d6a28f0641%3A0x9f730fe7bfad29fd!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBHaWFvIHRow7RuZyB24bqtbiB04bqjaSBUUCBIQ00gVVRIIGPGoSBz4bufIDI!5e0!3m2!1svi!2s!4v1719665296953!5m2!1svi!2s"
+            style="border-radius: 25px; border: 0; width: 100%"
+          ></iframe>
+        </div>
+        <!-- <div class="contact__it2"> -->
+        
+          <div class="map-hcm">
+            <h6>Trường Đại học Giao thông vận tải - Cơ sở 3</h6>
+            <p>
+              <i class="fa-solid fa-location-dot fa-sm"></i>Địa chỉ: 70 Đ. Tô Ký, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh, Việt Nam
+            </p>
+            <iframe
+              allowfullscreen=""
+              height="120"
+              loading="lazy"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104429.79520840965!2d106.55964733801797!3d10.854293015648917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b2a11844fb9%3A0xbed3d5f0a6d6e0fe!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBHaWFvIFRow7RuZyBW4bqtbiBU4bqjaSBUaMOgbmggUGjhu5EgSOG7kyBDaMOtIE1pbmggLSBDxqEgc-G7nyAz!5e0!3m2!1svi!2s!4v1719637768638!5m2!1svi!2s"
+              style="border-radius: 25px; border: 0; width: 100%"
+            ></iframe>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      
+    </div>
+    <p
+      style="
+        text-align: center;
+        background-color: #012750;
+        padding-top: 30px;
+        padding-bottom: 70px;
+      "
+    >
+      <a href="" style="font-size: 14px"
+        >@2024 Bản quyền thuộc Trường Đại học Giao thông vận tải Hồ Chí
+        Minh</a
+      >
+    </p>
+  </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../Js/p4.js"></script>
+    <script src="../Js/script.js"></script>
+  </body>
+</html>
