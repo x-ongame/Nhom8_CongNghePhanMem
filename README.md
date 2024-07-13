@@ -2,18 +2,19 @@
 
 ### Giải thích từng phần
 
-1. **Tiêu đề dự án**: Nhom8
+1. **Điểm **: Nhom8
 
    ```markdown
-   # Powerpoint
-   https://www.canva.com/design/DAGIZifjsc0/lGEYehuWrX6Y9vvXT3MQlw/edit?utm_content=DAGIZifjsc0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+   Điểm ở Re
    ```
 
 2. **Mô tả ngắn gọn**:
 
    ```markdown
-
+   # Powerpoint
+   https://www.canva.com/design/DAGIZifjsc0/lGEYehuWrX6Y9vvXT3MQlw/edit?utm_content=DAGIZifjsc0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
    ```
+   
 
 3. **Mục lục**:
 
