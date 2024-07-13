@@ -2,23 +2,23 @@
 
 1. **Điểm **: Nhom8
    ```markdown
-# Trường Đại học GTVT HCM
-# Thông tin thành viên nhóm 8
+   # Trường Đại học GTVT HCM
+   # Thông tin thành viên nhóm 8
 
-|            |                 |       |                     |      |      |
-| ---------- | --------------- | ----- | ------------------- | ---- |------|
-| MSSV       | Họ và tên       | Lớp   |         Khoa        | Khóa | Điểm | 
-| 2051120302 | Phan Đình Tiến  |       |                     | K20  | 7.5  |
-| 2051120092 | Phạm Minh Chiến |       |                     | K20  |  6   |
-| 2251330027 | Nguyễn Hữu Nhân |       |                     | K22  |  V   |
+   |            |                 |       |                     |      |      |
+   | ---------- | --------------- | ----- | ------------------- | ---- |------|
+   | MSSV       | Họ và tên       | Lớp   |         Khoa        | Khóa | Điểm | 
+   | 2051120302 | Phan Đình Tiến  |       |                     | K20  | 7.5  |
+   | 2051120092 | Phạm Minh Chiến |       |                     | K20  |  6   |
+   | 2251330027 | Nguyễn Hữu Nhân |       |                     | K22  |  V   |
 
-||||||
+   ||||||
 
-# Tiểu luận môn Công Nghệ Phần Mềm
+   # Tiểu luận môn Công Nghệ Phần Mềm
 
-## Chủ đề : Thiết kế website thông tin của trường ĐH Giao thông vận tải
+   ## Chủ đề : Thiết kế website thông tin của trường ĐH Giao thông vận tải
 
-### Công nghệ
+   ### Công nghệ
    ```
 
 2. **Mô tả ngắn gọn**:
