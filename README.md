@@ -1,7 +1,6 @@
 # Nhom8_CongNghePhanMem
 
 1. **Điểm **: Nhom8
-
    ```markdown
 # Trường Đại học GTVT HCM
 # Thông tin thành viên nhóm 8
