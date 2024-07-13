@@ -9,10 +9,10 @@
 ## Thông tin thành viên nhóm 8
 
 |            |                 |       |                     |      |
-| ---------- | --------------- | ----- | ------------------- | ---- |
-| MSSV       | Họ và tên       | Lớp   | Khoa                | Khóa |
-| 2051120302 | Phan Đình Tiến  | CN20E | Công Nghệ Thông Tin | K20  |
-| 2051120092 | Phạm Minh Chiến | CN20A | Công Nghệ Thông Tin | K20  |
-| 2251330027 | Nguyễn Hữu Nhân | HT22  |                     | K22  |
+| ---------- | --------------- | ----- | ------------------- | ---- |------|--------|
+| MSSV       | Họ và tên       | Lớp   | Khoa                | Khóa | Điểm | 
+| 2051120302 | Phan Đình Tiến  |       |                     | K20  | 7.5  |
+| 2051120092 | Phạm Minh Chiến |       |                     | K20  |  6   |
+| 2251330027 | Nguyễn Hữu Nhân |       |                     | K22  |   V  |
 
 ||||||
