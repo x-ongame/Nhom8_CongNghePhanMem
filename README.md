@@ -4,14 +4,7 @@
 
    ```markdown
    # Trường Đại học GTVT HCM
-
-# Tiểu luận môn Công Nghệ Phần Mềm
-
-## Chủ đề : Thiết kế website thông tin của trường ĐH Giao thông vận tải
-
-### Công nghệ
-
-## Thông tin thành viên nhóm 8
+   ## Thông tin thành viên nhóm 8
 
 |            |                 |       |                     |      |      |
 | ---------- | --------------- | ----- | ------------------- | ---- |------|
@@ -21,6 +14,12 @@
 | 2251330027 | Nguyễn Hữu Nhân |       |                     | K22  |  V   |
 
 ||||||
+
+# Tiểu luận môn Công Nghệ Phần Mềm
+
+## Chủ đề : Thiết kế website thông tin của trường ĐH Giao thông vận tải
+
+### Công nghệ
    ```
 
 2. **Mô tả ngắn gọn**:
