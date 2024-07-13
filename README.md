@@ -1,7 +1,5 @@
 # Nhom8_CongNghePhanMem
 
-### Giải thích từng phần
-
 1. **Điểm **: Nhom8
 
    ```markdown
