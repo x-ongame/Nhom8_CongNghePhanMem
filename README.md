@@ -4,7 +4,7 @@
 
    ```markdown
    # Trường Đại học GTVT HCM
-   ## Thông tin thành viên nhóm 8
+   # Thông tin thành viên nhóm 8
 
 |            |                 |       |                     |      |      |
 | ---------- | --------------- | ----- | ------------------- | ---- |------|
